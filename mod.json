@@ -1,0 +1,8 @@
+{
+  "id": "gd.ai.test",
+  "name": "AI Test Mod",
+  "version": "1.0.0",
+  "geode": "4.0.0",
+  "description": "Auto-play AI",
+  "authors": ["Zero52231239"]
+}
