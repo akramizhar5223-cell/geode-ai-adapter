@@ -1,0 +1,22 @@
+name: Build Mod
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  win:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      # ✅ Official action — handles SDK setup automatically
+      - uses: geode-sdk/build-geode-mod@main
+        id: build
+        with:
+          target: Win64
+          sdk: latest
+      
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FlyBrainAI-Mod
+          path: ${{ steps.build.outputs.build-output }}
