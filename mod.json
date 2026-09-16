@@ -1,0 +1,8 @@
+{
+  "id": "gd.fly-brain-ai",
+  "name": "Fly Brain AI Player",
+  "version": "1.0.0",
+  "geode": "4.0.0",
+  "description": "Auto-play AI for Geometry Dash",
+  "authors": ["Zero52231239"]
+}
