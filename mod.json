@@ -1,0 +1,15 @@
+{
+  "id": "gd.fly-brain-ai",
+  "name": "Fly Brain AI Player",
+  "version": "1.0.0",
+  "geode": "4.0.0",
+  "description": "AI that plays & learns — hold Resume 5s to unpause",
+  "authors": ["Your Name"],
+  "settings": {
+    "enable-ai": {
+      "name": "Enable AI Player",
+      "type": "bool",
+      "default": true
+    }
+  }
+}
